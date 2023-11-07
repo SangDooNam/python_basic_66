@@ -35,3 +35,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    human = Animal(2, 2)
+    dog = Dog(4,2)
+    german_shepard = GermanShepard(4, 2)

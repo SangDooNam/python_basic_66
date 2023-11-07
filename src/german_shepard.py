@@ -2,5 +2,8 @@ from dog import Dog
 
 
 class GermanShepard(Dog):
-    pass
+    
+    def walk(self):
+        super().walk()
+        print("German Shepard`s show their beautiful fur while running.")
     # TODO: override the walk() method
